@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MicroBakery</title>
+  <link rel="stylesheet" href="Rwebpage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="parts">
+      <div class="part1">
+        <div class="text">
+          <button onclick="a()" class="navbtn dismiss2" id="navbtn"><img src="threelines.png" height="30px"></button> 
+         <img src="M-logo.png" class="logo" height="40px"><span class="cname">MicroBakery</span>
+        </div>
+        <div class="searchbar">
+          <input type="text" class="search rtxt" placeholder="search for best cake,flavours,flowers,ocassion here" id="tastetxt">
+          
+        </div>
+        <div type="contact">
+          <a href="#" class="dismiss"><img src="twit.png" height="50px"></a>
+          <a href="https://wa.me/+919090265330" target="_blank" class="dismiss"><img src="what.png" height="50px"></a>
+          <a href="https://instagram.com/rabindrapanigrahi258?igshid=ZGUzMzM3NWJiOQ==" target="_blank" class="dismiss"><img src="insta.png" height="50px"></a>
+          <a href="https://www.facebook.com/profile.php?id=100089027913478" target="_blank" class="dismiss"><img src="face.png" height="50px"></a>
+          <button class="btn2"><a href="basic.html" ><img src="prof.png" height="50px"></a>Profile</button>
+          
+        </div>
+      </div>
+      <div class="part2">
+        <div class="details">
+          <a href="Rwebpage2.html"><input type="button" value="Delivery areas" class="btn" id="btn"></input></a>           
+        </div>
+        <select class="btn" name="Express">
+          <option value="volvo">Express</option>
+          <option value="volvo">cake</option>
+          <option value="saab">flower</option>
+        </select>
+        <select class="btn">
+          <option value="volvo">cake</option>
+          <option value="volvo"><button onclick="x()">Black Forest cake</button></option>
+          <option value="saab">Blue berry cake</option>
+        </select>
+        <button class="btn" onclick="u()">About us</button>
+        <button class="btn">Coustomise option</button>
+        <button class="btn2" onclick="u2()"><a href="#"><img src="cart.png" height="30px"></a><span id="crtno">0</span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="bar3 active2" id="div3">
+    <button class="close3" onclick="b2()">Close</button>
+    <div id="crtimage">
+
+    </div>
+    
+  </div>
+  <div class="bar active" id="div1">
+    <button class="close" onclick="b()">Close</button>
+    <a href="Rwebpage.html" class="element home">
+     <i class="fa fa-home"></i> Home
+    </a>
+    <a href="basic.html" class="element Dashboard">
+      <i class="fa fa-tachometer"></i>Dashboard
+    </a>
+    <a href="#" class="element orders">
+      <button onclick="u2()" class="orders"><i class="fa fa-line-chart"></i>Your items</button> 
+    </button>
+    <a href="basic.html" class="element Account">
+      <i class="fa fa-bell"></i>Your Account
+    </a>
+    <a href="#" class="element Giftcard">
+      <i class="fa fa-tachometer"></i>Your Giftcard 
+    </a>
+    <div class="icons">
+      <span class="links">Connect us with</span>
+      <a href="#" class="dismiss"><img src="twit.png" height="40px"></a>
+      <a href="https://wa.me/+919090265330" target="_blank" class="dismiss"><img src="what.png" height="40px"></a>
+      <a href="https://instagram.com/rabindrapanigrahi258?igshid=ZGUzMzM3NWJiOQ==" target="_blank" class="dismiss"><img src="insta.png" height="40px"></a>
+      <a href="https://www.facebook.com/profile.php?id=100089027913478" target="_blank" class="dismiss"><img src="face.png" height="40px"></a>
+    </div>
+  </div>
+  <div class="cakesection">
+    <button class="birth">
+     <div class="doublecoated"> <img src="birth.png" class="birth1" height="150px"><h2 class="birth2">Birthday <br>Cakes></h2></div>
+    </button>
+    <button class="birth">
+      <div class="doublecoated"> <img src="anni.png" class="birth1" height="150px"><h2 class="birth2">Anniversary <br> Cakes></h2></div>
+     </button>
+     <button class="birth">
+      <div class="doublecoated"> <img src="bestseller.png" class="birth1" height="150px"><h2 class="birth2">Bestseller <br> Cakes></h2></div>
+     </button>
+     <button class="birth">
+      <div class="doublecoated"> <img src="special.png" class="birth1" height="150px"><h2 class="birth2">Premium <br> Cakes></h2></div>
+     </button>
+  </div>
+  
+  <div class="flavour dismiss">
+    <a href="#" class="dismiss"><button class="btnss">Pinata</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Chocolate</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Black Forest</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Buttersctoch</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Vanilla</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Red velvet</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Fruit</button></a>
+    <a href="#" class="dismiss"><button class="btnss">Fondant</button></a>
+    <a href="#" class="dismiss"> <button class="btnss">Kids</button></a>
+  </div>
+  <div class="cakeup">
+    <div class="headi"><h1>Cakes(<span class="cakeno">15</span>)</h1></div>
+    <div class="sec">
+      <select class="btn" name="sort">
+        <option value="volvo">sort</option>
+        <option value="volvo">price low to high</option>
+        <option value="volvo">price high to low</option>
+      </select>
+      <a href="#" class="filt"> <button class="btn ft">Filter</button></a>
+    </div>
+
+  </div>
+  <div class="line">
+    <button class="cakebtn"><img class="previous" src="prevbtncake.png" height="50px"></button>
+  <div class="cakeview">
+    
+    <div class="card">
+    <div class="front">
+    <div class="cakeone">
+      <div class="cakesec">
+        <div class="dum"><span class="lr"><span id="rating">0</span>⭐</span></div>
+        <div class="cake"><img src="special.png" class="cakesimg" id="rand2" height="50"></div>
+        <h2 class="bc" id="txt2">Birthday special cake</h2>
+      
+        <div class="stars">
+          <button class="s1" onclick="coloured1()"><img class="s11" src="starnc.png" height="30px"></button>
+          <button class="s2" onclick="coloured2()"><img class="s22" src="starnc.png" height="30px"></button>
+          <button class="s3" onclick="coloured3()"><img class="s33" src="starnc.png" height="30px"></button>
+          <button class="s4" onclick="coloured4()"><img class="s44" src="starnc.png" height="30px"></button>
+          <button class="s5" onclick="coloured5()"><img class="s55" src="starnc.png" height="30px"></button>
+        </div>
+        <div class="buttons">
+          <a href="glink.html"><button class="shop">Buy Now</button></a>
+          <button class="Carry" id="cbttt" onclick="cartno2()">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="back">
+      <h3 id="bt">back page</h3>
+      <p class="he" id="pap1">hello hyeartghbb</p>
+  </div>
+    </div>
+  </div>
+  <div class="cakeview">
+    <div class="card2">
+    <div class="front2">
+  <div class="cakeone">
+      
+      <div class="cakesec">
+        <div class="dum"><span class="lr"><span id="rating2">0</span>⭐</span></div>
+        <div class="cake"><img src="special.png" class="cakesimg" id="rand1" height="50"></div>
+        <h2 class="bc" id="txt1">Birthday special cake</h2>
+      
+        <div class="stars">
+          <button class="s1" onclick="coloured11()"><img class="s111" src="starnc.png" height="30px"></button>
+          <button class="s2" onclick="coloured22()"><img class="s222" src="starnc.png" height="30px"></button>
+          <button class="s3" onclick="coloured33()"><img class="s333" src="starnc.png" height="30px"></button>
+          <button class="s4" onclick="coloured44()"><img class="s444" src="starnc.png" height="30px"></button>
+          <button class="s5" onclick="coloured55()"><img class="s555" src="starnc.png" height="30px"></button>
+        </div>
+        <div class="buttons">
+          <a href="glink.html"><button class="shop">Buy Now</button></a>
+          <button class="Carry" id="cbtt" onclick="cartno1()">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="back2">
+    <h3 id="btt">back page</h3>
+    <p id="pap2">hello hyeartghbb</p>
+  </div>
+  </div>
+  </div>
+  <div class="cakeview">
+    <div class="card3">
+    <div class="front3">
+    <div class="cakeone">
+      
+      <div class="cakesec">
+        <div class="dum"><span class="lr"><span id="rating3">0</span>⭐</span></div>
+        <div class="cake" id="cake"><img src="special.png" class="cakesimg" id="rand" height="50"></div>
+        <h2 class="bc" id="txt">Birthday special cake</h2>
+      
+        <div class="stars">
+          <button class="s1" onclick="coloured111()"><img class="s1111" src="starnc.png" height="30px"></button>
+          <button class="s2" onclick="coloured222()"><img class="s2222" src="starnc.png" height="30px"></button>
+          <button class="s3" onclick="coloured333()"><img class="s3333" src="starnc.png" height="30px"></button>
+          <button class="s4" onclick="coloured444()"><img class="s4444" src="starnc.png" height="30px"></button>
+          <button class="s5" onclick="coloured555()"><img class="s5555" src="starnc.png" height="30px"></button>
+        </div>
+        <div class="buttons">
+          <a href="glink.html"><button class="shop">Buy Now</button></a>
+          <button class="Carry" id="cbt" onclick="cartno()">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="back3">
+    <h3 id="bttt">back page</h3>
+     <p id="pap3">hello hyeartghbb</p>
+ </div>
+</div>
+
+</div>
+
+    <button class="cakebtn"><img class="next" src="rightbtn.png" height="50px"></button>
+    
+  </div>
+</div>
+<div class="cakesgroup">
+  <div class="p1">
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Indore Speacial cake!</h3>
+      <img id="ca1" src="a2.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="c1" onclick="c1()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1 c2">
+      <h3 style="background-color: red;" id="name2">Ice cake!</h3>
+      <img id="ca2" src="b17.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="c2" onclick="c2()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1 c3">
+      <h3 style="background-color: red;" id="name3">Turkish patrey!</h3>
+      <img id="ca3" src="p9.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="c3" onclick="c3()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1 c4">
+      <h3 style="background-color: red;" id="name">Indore Speacial cake!</h3>
+      <img id="ca1" src="a20.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="k1" onclick="k1()">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="p3">
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Party cake!</h3>
+      <img id="ca1" src="b11.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="s1" onclick="se1()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Game changer's cake!</h3>
+      <img id="ca1" src="b9.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="s2" onclick="se2()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Birthday cake!</h3>
+      <img id="ca1" src="b8.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="s3" onclick="se3()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Speacial cake for someone special!</h3>
+      <img id="ca1" src="b4.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="s4" onclick="se4()">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="p4">
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Black forest cake!</h3>
+      <img id="ca1" src="b.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="t1" onclick="t1()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Butterscotth cake!</h3>
+      <img id="ca1" src="a7.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="t2" onclick="t2()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">Anniversary cake!</h3>
+      <img id="ca1" src="a6.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="t3" onclick="t3()">Add to cart</button>
+      </div>
+    </div>
+    <div class="c1">
+      <h3 style="background-color: red;" id="name">The sucessful's Cake!</h3>
+      <img id="ca1" src="a3.png">
+      <div class="buttons">
+        <a href="glink.html"><button class="shop">Buy Now</button></a>
+        <button class="Carry" id="t4" onclick="t4()">Add to cart</button>
+      </div>
+    </div>
+  </div>  
+</div>
+<div class="info">
+  <h1>MicroBakery - Trustworthy Online Brand for Cake, Flowers & Gifts Delivery</h1>
+  Online businesses are booming in India day by day. In the visibly customer-centric world, MicroBakery is creating the moments of your life unique and unforgettable with delightful cakes. MicroBakery is an online gifting platform, providing you with a comprehensive range of lovely cakes in lip-smacking flavors, exotic flowers in lovely arrangements and some other adorable gifts to make your every celebration, a memorable one. Here you are always welcomed with tasty and gorgeous cakes, ranging from Strawberry chocolate cake, Mango Maharaja cake, Rich chocolate cake, White Forest cake. For your grand celebrations, we also offer Premium celebration cakes such as 2-tier cake & 3-tier cake in numero of flavors. For little ones, we have delicious & fun kids cakes like Doraemon cartoon cake, Bheem cake, doll cake, car cake, minion cake and many more. With Winni, you don’t need to hop to nearby cake shops as here you will get the intricate cake delivery services, giving you a pleasant shopping experience. Apart from cakes and flowers, we also deliver you the best gifts like handbags, metallic utensils, scented candles, home decor gifts etc. that will sure to win the heart of all. We, ambitiously claim to deliver you 100% fresh cakes, flowers and attractive gifts at your doorstep with complete ease and care.
+  <h1>Same Day Delivery at your place</h1>
+  MicroBakery is committed to delivering your cakes, flowers, and gifts across India with fixed and same-day delivery services. We are accomplishing this milestone by following the intricate delivery planning system as we believe your celebration is the most beautiful time of your life and it becomes best with some ultimate surprises. Make your special one feel on Cloud Nine with the art of our charming flowers, delicious & appetizing cakes, and exciting gifts. MicroBakery offers you a wide range of special birthday cake, flowers for anniversaries, and gifts for wonderful celebrations, encapsulating your all emotions, you may need to convey your feelings just the way you want. In today’s increasingly hasten times, where everyone is busy in their lives, our same-day cake, flowers, and gifts delivery across all the cities of India, will be a step to come close to your loved ones. We believe that every human relationship is unique and all hold an appreciation. Stun them with superb gifts as they can cover the whole aspect of human emotions in the right manner. You can offer pinata cake & flowers to your loved ones as this is the best gift that can be presented to your loved ones.
+  <h1>How to pep up your celebrations?</h1>
+  Life gives you many reasons to celebrate, sometimes, in the form of festivals or occasions that unites all to enjoy the spirit of the day together. Be it Wedding gifts, Birthday gifts, Friendship Day, Valentine's Day, anniversary, Father's Day, or any other special occasion, our gifts never fail to make your celebration peppy. The excellence of our gifts can be examined by having a glance at the adorable range of delicious cakes, alluring flowers and happy gifts, ready to fill every moment of your celebration with immense happiness. We, Indians love to celebrate every happiness with sheer and enthusiasm with our close ones. To comprehend & appreciate the joy related to such festivities, our gifts for boys will be an ideal choice for you.
+  <h1>A wide variety of Delicious cakes, appealing flowers & exciting gifts</h1>
+  MicroBakery is very well aware of the ritual of ending the celebration with something sweet. And therefore has come up with fresh cakes, baked with love and utmost perfection to stun your loved ones with their gorgeous appearance. MicroBakery offers you variety in the flavors, designs, and shapes of the cake that can lead the way to your loved one's heart. From ever-popular Black Forest cake to the most picked Red Velvet cake, fruitful Strawberry cakes to tasty Choco Vanilla cake, we offer every possible cake to make your dear ones feel bubbly. Talking about flowers, then we only provide the top-selling, fresh, and handpicked flowers like Roses, Orchids, Carnations, Lilies, and Gerberas wrapped elegantly that will sure to strike a cute smile on your loved ones' faces. Apart from cake and flowers, we also offer happiness packed in gifts like handbags, clutches, metallic utensils, home decor gifts, and so on. So, be ready to get praise from others with these special gifts.
+  <h1>The duo is the Best for Celebration</h1>
+  There is another adorable thing that beautifully blends with cakes and that is flowers. Cakes & flowers are the best duos that are often combined to make a complete gift package. With the changing times, the concept of gifting cakes and flowers is quite unique and loved by all. You can offer a bouquet to your newly married friends to congratulate them. Whereas cakes are the lifeline of every celebration. For anniversary cakes, MicroBakery offers you Heart shape cakes as they are the best choice for this occasion. Gifting a bunch of red roses with a Heart shape cake, is really an unbeatable combination! For some other special occasions like Father’s Day, and Mother’s Day, you can express your feelings & sentiments and convey your heartwarming wishes with the special Father’s Day Flowers and Father's Day Gifts. Stay amazed with special cakes, flowers, and gifts from Microbakery!
+
+
+
+  <h1></h1>
+</div>
+  <script src="Rwebpage1.js"></script>
+</body>
+</html>

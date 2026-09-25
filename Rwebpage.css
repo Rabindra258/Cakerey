@@ -1,0 +1,539 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  
+  
+}
+body{
+  background-image: url("cakebg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4000px;
+}
+.userr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.part1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-image: url("back.jpeg");
+}
+.flavour{
+  background-image: url("cakebg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cname{
+  font-size: 25px;
+}
+.search{
+  width:450px;
+  height:50px;
+}
+.search-bar{
+  width:60px;
+  height:50px;
+  margin-left:-10px;
+  background-color: Brown;
+}
+.part2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-image: url("back.jpeg");
+  box-shadow: 2px 2px 4px 5px #393838;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.btn{
+  background-color: #FFFDD0; 
+  color: Black; 
+  width: 84px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.btn:hover {
+  width: 84px;
+  height: 40px;
+  border-bottom: 2px solid red;
+  color:Green;
+}
+.btn:hover a{
+  color:Green;
+  
+}
+.Carry:hover {
+  background-color:rgb(37, 196, 191);
+}
+.shop:hover {
+  background-color:rgb(22, 31, 204);
+}
+.btn2{
+  background-color: #FFFDD0; 
+  color: Black; 
+  width: 84px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.dismiss2{
+  opacity: 10;
+}
+
+@media only screen and (max-width: 1050px) {
+  .dismiss{
+    display: none;
+  }
+  .part2{
+    display: none;
+  }
+  .line{
+    display: none;
+    opacity: 0;
+  }
+  
+  .part1{
+    box-shadow: 2px 2px 3px 3px #393838;
+  }
+  .search{
+    width:150px;
+  }
+ 
+  .cname{
+    font-size: 10px;
+  }
+  .logo{
+    height:50px;
+  }
+}
+
+
+.navbtn{
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  
+}
+.rset{
+  display: none;
+}
+.bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width:350px;
+  height:100%;
+  background: #111;
+}
+.active{
+  margin-left:-440px;
+}
+.active2{
+  margin-right:-640px;
+}
+.bar{
+  display: flex;
+  flex-direction: column;
+  transition: all 30000s ease ease-in;
+  z-index: 1;
+}
+.bar2{
+  display: flex;
+  flex-direction: column;
+  transition: all 30000s ease ease-in;
+  z-index: 1;
+}
+.bar2{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width:350px;
+  height:100%;
+  background: #111;
+}
+.bar2 img{
+  width:10px;
+}
+.bar3{
+  display: flex;
+  flex-direction: column;
+  transition: all 30000s ease ease-in;
+  z-index: 1;
+}
+.bar3{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width:450px;
+  height:100%;
+  background: white;
+}
+
+.element{
+  display: block;
+  padding:15px 10px;
+  text-decoration: none;
+  color:white;
+  cursor:pointer;
+  border-bottom: 1px solid #1b1b1b;
+}
+.close{
+  display: block;
+  padding:15px 10px;
+  text-decoration: none;
+  background-color:#1b1b1b ;
+  color:white;
+  cursor:pointer;
+  
+}
+.close2{
+  display: block;
+  padding:15px 10px;
+  text-decoration: none;
+  background-color:#1b1b1b ;
+  color:white;
+  cursor:pointer;
+  
+}
+.close3{
+  display: block;
+  padding:15px 10px;
+  text-decoration: none;
+  background-color:#1b1b1b ;
+  color:white;
+  cursor:pointer;
+  
+}
+.Dashboard{
+  color:#00acee;
+
+}
+.Dashboard, .element:hover,.close:hover{
+  background:#222;
+  color:#00acee;
+
+}
+.links{
+  display: block;
+  padding:15px 10px;
+  text-decoration: none;
+  background: #111;
+  color:white;
+  cursor:pointer;
+}
+.icons{
+  position: fixed;
+  bottom: 0px;
+  background-color: #111;
+}
+.birth{
+  width:370px;
+  min-height: 200px;
+}
+.birth1{
+  margin-left:185px;
+}
+.birth2{
+  width:200px;
+  margin-top: -100px;
+  color: brown;
+}
+.doublecoated{
+  width: 360px;
+  height:160px ;
+  background-color:#ffb6c1;
+  left:2px;
+  padding: 10px 10px 10px 10px;
+}
+.lines{
+  margin-left: -210px;
+}
+.cakesection{
+  margin-top: 30px;
+}
+.flavour{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  margin-top: 30px;
+}
+.btnss{
+  background-color: brown; 
+  color: white; 
+  width: 154px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+.cakeone{
+  width:350px;
+  height:450px;
+  background-color: aquamarine;
+  border: 2px solid blue;
+  align-items: center;
+}
+.cakeview{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:150px;
+}
+.card{
+  position: absolute;
+  width:350px;
+  height:450px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.card2{
+  position: absolute;
+  width:350px;
+  height:450px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.rotate{
+  transform: rotateY(180deg);
+}
+.card3{
+  position: absolute;
+  width:350px;
+  height:450px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.front{
+  position: absolute;
+  width:350px;
+  height:450px;
+  backface-visibility: hidden;
+  background-color: aquamarine;
+  
+}
+.back{
+  position: absolute;
+  backface-visibility: hidden;
+  width:350px;
+  height:450px;
+  background-color: aquamarine;
+  
+  transform: rotateY(180deg);
+}
+.front2{
+  position: absolute;
+  width:350px;
+  height:450px;
+  backface-visibility: hidden;
+  background-color: aquamarine;
+  
+}
+.back2{
+  position: absolute;
+  width:350px;
+  height:450px;
+  backface-visibility: hidden;
+  background-color: aquamarine;
+  
+  transform: rotateY(180deg);
+}
+.front3{
+  position: absolute;
+  width:350px;
+  height:450px;
+  backface-visibility: hidden;
+  background-color: aquamarine;
+  
+}
+.back3{
+  position: absolute;
+  width:350px;
+  height:450px;
+  backface-visibility: hidden;
+  background-color: aquamarine;
+  
+  transform: rotateY(180deg);
+}
+.cakebtn{
+  background-color: white;
+  border: 1px solid white;
+}
+.cakesec{
+  background-color: rgb(103, 16, 103);
+  height:150px;
+}
+
+.cake{
+  width: 250px;
+  height: 250px;
+  border: 5px solid red;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left:50px;
+  background-color: white;
+  
+}
+.cakesimg{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.bc{
+  width:350px;
+  margin-left:50px;
+}
+.stars{
+  margin-top:10px;
+  display: flex;
+  margin-left:50px;
+  justify-content: space-between;
+  align-items: center;
+  width:250px;
+}
+.s1{
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+.s2{
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+.s3{
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+.s4{
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+.s5{
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+.dum{
+  width: 350px;
+  height: 20px;
+  position: relative;
+  
+}
+.orders{
+  background-color: #111;
+  color: aliceblue;
+  border: 1px solid black;
+}
+.lr{
+  width: 50px;
+  position: absolute;
+  right: 0;
+  background-color: green;
+}
+.shop {
+  background-color: #e27b0d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Carry {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+}
+.buttons{
+  margin-left: 20px;
+  align-content:center ;
+}
+.cakesgroup{
+  margin-top:255px;
+  margin-left: 30px;
+}
+.cakesgroup img{
+  width:350px;
+  height:250px;
+}
+.info{
+  margin-top:225px;
+}
+
+.c1{
+  background-image: url("back.jpeg");
+  width:350px;
+  height:350px;
+  text-align: center;
+}
+.p1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crtload{
+  position: absolute;
+  left: 0;
+}
+.crtload img{
+  position: absolute;
+  left: 0;
+  top:0;
+  background-color: silver;
+  width:210px;
+}
